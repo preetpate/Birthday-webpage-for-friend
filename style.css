@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #ffefd5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    padding: 20px;
+    background-color: #ffbb33;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .messages-section, .gallery-section, .countdown-section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff3cd;
+    border-radius: 10px;
+  }
+  
+  .message-card {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 250px;
+    border-radius: 35px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .countdown-section h2 {
+    margin-bottom: 10px;
+    color: #d9534f;
+  }
+  
+  #countdown {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
